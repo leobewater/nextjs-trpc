@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { publicProcedure, router } from "@/app/server/trpc";
+import { publicProcedure, router } from "@/server/trpc";
 
 // appRouter which acts as a hub for your API procedures.
 export const appRouter = router({
